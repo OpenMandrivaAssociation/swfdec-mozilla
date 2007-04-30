@@ -1,4 +1,4 @@
-%define version 0.4.2
+%define version 0.4.4
 %define rel 1
 
 Name:		swfdec-mozilla
