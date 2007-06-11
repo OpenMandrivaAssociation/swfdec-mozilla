@@ -1,4 +1,4 @@
-%define version 0.4.4
+%define version 0.4.5
 %define rel 1
 
 Name:		swfdec-mozilla
@@ -10,7 +10,7 @@ License:	LGPL
 URL:		http://swfdec.freedesktop.org/
 Source:		http://swfdec.freedesktop.org/download/%name/%major/%{name}-%{version}.tar.bz2
 BuildRoot:	%{_tmppath}/%{name}-root
-BuildRequires: swfdec-devel >= 0.4.0
+BuildRequires: swfdec-devel >= 0.4.5
 BuildRequires: libalsa-devel gtk2-devel
 BuildRequires: mozilla-firefox-devel
 %description
@@ -44,6 +44,3 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(-,root,root)
 %doc COPYING
 %{_libdir}/mozilla/plugins/libswfdecmozilla.so*
-
-
-
