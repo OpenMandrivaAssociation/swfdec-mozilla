@@ -33,7 +33,7 @@ export MOZILLA_CFLAGS="$(pkg-config --cflags firefox-plugin) $(pkg-config  --cfl
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%makeinstall 
+%makeinstall_std 
 rm -f $RPM_BUILD_ROOT/%{_libdir}/mozilla/plugins/libswfdecmozilla.a
 rm -f $RPM_BUILD_ROOT/%{_libdir}/mozilla/plugins/libswfdecmozilla.la
 
