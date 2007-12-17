@@ -10,7 +10,6 @@ Group:		Networking/WWW
 License:	LGPL
 URL:		http://swfdec.freedesktop.org/
 Source:		http://swfdec.freedesktop.org/download/%name/%major/%{name}-%{version}.tar.gz
-BuildRoot:	%{_tmppath}/%{name}-root
 BuildRequires: swfdec-devel >= %{version}
 BuildRequires: libalsa-devel gtk2-devel
 BuildRequires: mozilla-firefox-devel
