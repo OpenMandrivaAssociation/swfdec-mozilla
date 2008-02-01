@@ -1,13 +1,13 @@
-%define version 0.5.5
+%define version 0.5.90
 %define major 0.5
-%define rel 2
+%define rel 1
 
 Name:		swfdec-mozilla
 Version:	%version
 Release:	%mkrel %rel 
 Summary:	Mozilla compatible plugin for Flash rendering
 Group:		Networking/WWW
-License:	LGPL
+License:	LGPLv2+
 URL:		http://swfdec.freedesktop.org/
 Source0:	http://swfdec.freedesktop.org/download/%name/%major/%{name}-%{version}.tar.gz
 Source1:	http://swfdec.freedesktop.org/download/%name/%major/%{name}-%{version}.md5sum
