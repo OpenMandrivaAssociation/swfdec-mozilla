@@ -42,3 +42,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(-,root,root)
 %doc COPYING
 %{_libdir}/mozilla/plugins/libswfdecmozilla.so*
+%{_iconsdir}/hicolor/*/apps/*
