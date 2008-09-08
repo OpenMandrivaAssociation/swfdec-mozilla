@@ -1,5 +1,5 @@
-%define version 0.7.4
-%define major 0.7
+%define version 0.8.0
+%define major 0.8
 %define rel 1
 
 Name:		swfdec-mozilla
