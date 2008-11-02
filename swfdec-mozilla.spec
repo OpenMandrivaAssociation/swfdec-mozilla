@@ -1,4 +1,4 @@
-%define version 0.8.0
+%define version 0.8.2
 %define major 0.8
 %define rel 1
 
@@ -11,7 +11,6 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 License:	LGPLv2+
 URL:		http://swfdec.freedesktop.org/
 Source0:	http://swfdec.freedesktop.org/download/%name/%major/%{name}-%{version}.tar.gz
-Source1:	http://swfdec.freedesktop.org/download/%name/%major/%{name}-%{version}.md5sum
 BuildRequires: swfdec-devel >= %{version}
 BuildRequires: libalsa-devel gtk2-devel
 Suggests:	gstreamer0.10-ffmpeg
