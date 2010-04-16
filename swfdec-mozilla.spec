@@ -1,6 +1,6 @@
 %define version 0.8.2
 %define major 0.8
-%define rel 4
+%define rel 5
 
 Name:		swfdec-mozilla
 Version:	%version
@@ -15,6 +15,7 @@ BuildRequires: swfdec-devel >= %{version}
 BuildRequires: libalsa-devel gtk2-devel
 Suggests:	gstreamer0.10-ffmpeg
 Suggests:	gstreamer0.10-plugins-ugly
+Conflicts:	flashplayer-plugin
 
 %description
 This is a Mozilla compatible plugin for rendering of Flash animations
