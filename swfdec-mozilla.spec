@@ -9,7 +9,7 @@ Summary:	Mozilla compatible plugin for Flash rendering
 Group:		Networking/WWW
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 License:	LGPLv2+
-URL:		http://swfdec.freedesktop.org/
+URL:		https://swfdec.freedesktop.org/
 Source0:	http://swfdec.freedesktop.org/download/%name/%major/%{name}-%{version}.tar.gz
 BuildRequires: swfdec-devel >= %{version}
 BuildRequires: libalsa-devel gtk2-devel
