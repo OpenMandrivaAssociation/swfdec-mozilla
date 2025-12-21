@@ -11,6 +11,11 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 License:	LGPLv2+
 URL:		https://swfdec.freedesktop.org/
 Source0:	http://swfdec.freedesktop.org/download/%name/%major/%{name}-%{version}.tar.gz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: swfdec-devel >= %{version}
 BuildRequires: libalsa-devel gtk2-devel
 Suggests:	gstreamer0.10-ffmpeg
